@@ -1,0 +1,163 @@
+body { 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    background-image: url("./Images/pexels-jéshoots-218863.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.hidden-background{
+display: none;
+background-image: url("https://images.unsplash.com/photo-1584907797015-7554cd315667?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVnaW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.container-fluid{
+    margin: 0;
+    overflow: scroll;
+    overflow: hidden;
+}
+.background{
+    background-color: rgba(64, 68, 80, 0.767);
+    max-height: 850px;
+    max-width: 490px;
+    overflow: hidden;
+    opacity: 0.9;
+}
+h1 {
+    font-family: 'Saira Condensed', sans-serif;
+}
+h4{
+    font-family: 'Saira Condensed', sans-serif;
+    color: #fff;
+}
+h6, a{
+    color: #fff;
+    margin-top: 25px;
+}
+input {
+    padding: 10px;
+    margin-top: 10px;
+}
+.btn1:hover{
+    margin-bottom: 25px;
+}
+.btn1{
+    padding: 7px 68px 7px 68px;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #fff;
+    transition: margin-bottom .35s ease-out;
+}
+.btn2:hover{
+    margin-bottom: 30px;
+}
+
+.btn2 {
+    padding: 7px 77px 7px 77px;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #fff;
+    transition: margin-bottom .35s ease-out;
+}
+.user-icon{
+    margin-left: 15px;
+    margin-top: 9px;
+    position: absolute;
+}
+.email-icon {
+    margin-left: 15px;
+    margin-top: 9px;
+    position: absolute;
+}
+.password-icon {
+    margin-left: 18px;
+    margin-top: 6px;
+    position: absolute;
+}
+.code-bracket{
+    opacity: 0.5;
+}
+.pc-icon{
+    margin-left: 8px;
+    margin-top:  -5px;
+    position: absolute;
+}
+
+.github-icon:hover {
+transform: rotate(40deg);
+height: 100px;
+width: 80px;
+margin-bottom: 15px;
+}
+h5 {
+    color: #fff;
+}
+.github-icon{
+    margin-top: -10px;
+    border: solid #fff 3px;
+    border-radius: 45px;
+    opacity: 0.6;
+    transition: margin-bottom .35s ease-out;
+}
+@media screen and (min-width: 350px){
+.footer {
+    text-align: center;
+}
+.container {
+    height: 970px;
+}
+.background {
+    max-height: 990px;
+}
+body {
+    max-height: 1190px;
+}
+}
+@media screen and (max-width: 320px){
+    .background {
+        width: 360px;
+        max-height: 990px;
+    }
+    .footer {
+        text-align: center;
+        margin-left: 20px;
+    }
+    .container {
+        height: 970px;
+    }
+    body {
+        max-height: 1200px;
+    }
+}
+@media screen and (max-width: 280px){
+    .footer {
+        text-align: center;
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width: 1100px){
+body {
+    height: 1380px;
+}
+}
+@media screen and (min-width: 1024px){
+    body {
+        max-height: 1400px;
+    }
+}
+@media screen and (max-width: 1950px){
+    body {
+     height: 1380px;
+    }
+}
